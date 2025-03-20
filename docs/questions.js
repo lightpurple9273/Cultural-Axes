@@ -1,212 +1,213 @@
 questions = [
     [// Hierarchical v Peers
         [//4
-            "Status, titles, and organizational position should be highly respected and emphasized.",
-            "People should be addressed based on their title or seniority to show respect.",
-            "A hierarchy in the workplace ensures clear roles and responsibilities."
+            "Hierarchy ensures clear roles and responsibilities, making decision-making more efficient.",
+            "Status and authority should be upheld to maintain order in the workplace.",
+            "People should act in accordance with their rank, respecting the power dynamic."
         ],
         [//3
-            "People with higher positions should have more authority, but their ideas should still be challenged.",
-            "Respecting titles is important, but one should not blindly follow authority.",
-            "The opinions of those with more seniority should be considered more valuable."
+            "A strong hierarchy promotes discipline and clarity in leadership.",
+            "Authority figures should be given deference, while maintaining an ordered structure.",
+            "Leaders should guide the team with clear direction, rather than seek consensus from all members."
         ],
         [//2
-            "Titles matter, but a more egalitarian approach is preferred in many situations.",
-            "Leaders should be open to hearing from all levels of the hierarchy, regardless of rank.",
-            "People in leadership positions should be able to build trust and relationships, not just rely on their status."
+            "Hierarchy helps reduce chaos and confusion in organizations, leading to effective decision-making.",
+            "While equality is important, some level of hierarchy ensures efficiency and order.",
+            "Without structure, a group risks disorganization and a lack of clear leadership."
         ],
         [//1
-            "All individuals, regardless of status, should be treated equally.",
-            "People should focus on the content of what is being said, rather than the status of the speaker.",
-            "Titles or seniority shouldn't determine the value of ideas."
+            "Leaders should maintain authority, but open discussion and differing ideas should still be allowed.",
+            "Titles and seniority should not override the value of each individual's input.",
+            "Respect for authority is necessary, but it should not prevent healthy debate."
         ],
         [//-1
-            "Egalitarianism is overrated; a strong, respected hierarchy is necessary for clear leadership.",
-            "People should respect authority figures, and status should be an important aspect of interactions.",
-            "Leaders should not feel the need to give equal voice to all team members."
+            "Titles have a place in the workplace, but every team member's voice should be valued equally.",
+            "Leaders should be approachable and allow input from all team members, regardless of rank.",
+            "Respect for authority is important, but it should not limit the collaboration or creativity of others."
         ],
         [//-2
-            "Hierarchy often stifles innovation and discussion. Everyone should have an equal voice.",
-            "Leadership should be based on merit, not titles or position.",
-            "Leadership should focus more on the people, not the title."
+            "Everyone should have an equal say, regardless of their position or title.",
+            "Decisions should be based on the merit of ideas, not on the status of the person presenting them.",
+            "Everyone, regardless of their rank, should be given the same level of respect."
         ],
         [//-3
-            "Egalitarianism can lead to confusion and disorganization.",
-            "Everyone should be treated as equals, but hierarchy is vital for effective decision-making.",
-            "A lack of structure in the workplace can lead to chaos."
+            "Traditional hierarchies limit the potential of team members by suppressing their voices.",
+            "Leadership should be based on skill and merit, not on title or position.",
+            "Collaboration thrives in an environment where everyone is on equal footing."
         ],
         [//-4
-            "There should be no hierarchy in any organization.",
-            "Titles and seniority should be irrelevant to any interaction.",
-            "A fully equal, peer-based structure is the most effective way to lead and interact."
+            "There should be no clear distinctions in rank or authority within any organization.",
+            "All roles should be equal, and decisions should be made by consensus among peers.",
+            "A peer-based environment fosters creativity, innovation, and equality in decision-making."
         ]
     ],
     [// Collectivism v Individualism
         [//4
-            "Community and harmony should be prioritized over individual goals.",
-            "It's important to blend into the group and avoid standing out.",
-            "Unity and collective effort lead to success."
+            "The well-being of the group should always come before personal desires.",
+            "It is important to avoid standing out and prioritize blending into the group.",
+            "Unity and cooperation within the group lead to greater success than individual efforts."
         ],
         [//3
-            "Individual expression is important, but it's vital to maintain harmony within the group.",
-            "Speaking up is valued, but it should not disrupt group cohesion.",
-            "Team success should always come before individual desires."
+            "Individuality is important, but it must not disrupt the harmony of the group.",
+            "While personal expression is valued, the success of the team should always come first.",
+            "It is essential to contribute to the collective effort, even at the cost of personal gain."
         ],
         [//2
-            "Both collective and individual approaches should be balanced.",
-            "Leaders should encourage individuals to express themselves but ensure it does not harm group unity.",
-            "A balance of individual initiative and community welfare should be emphasized."
+            "Leaders should encourage individual expression but ensure it aligns with the group's objectives.",
+            "A focus on individualism can cause disharmony and reduce the effectiveness of the group.",
+            "The ability to innovate within a group should be encouraged, but group unity should still be maintained."
         ],
         [//1
-            "Individuals should feel free to express their opinions, even at the expense of group harmony.",
-            "The needs of the individual should take precedence in decision-making.",
-            "Personal achievements and goals are more important than group harmony."
+            "Both individual and group priorities should be equally balanced for optimal success.",
+            "Personal goals and group welfare should be in harmony to ensure mutual success.",
+            "Striking a balance between personal achievement and group contribution is the key to success."
         ],
         [//-1
-            "Collectivism hampers individual success and creativity.",
-            "Individual freedom should be paramount in all aspects of life and work.",
-            "Fitting in with the group is not as important as personal achievement."
+            "Individuals should have the freedom to pursue their goals, even at the cost of group harmony.",
+            "The importance of personal success outweighs the collective goals of the group.",
+            "Being part of the group should not hinder personal achievement and aspirations."
         ],
         [//-2
-            "Individuals are more important than the group, and their personal goals should be encouraged.",
-            "Emphasizing personal freedom leads to a more innovative society.",
-            "Group pressure should never influence an individual's choices."
+            "Personal goals should take precedence over group interests in most situations.",
+            "Freedom of expression and individuality lead to greater innovation and progress.",
+            "The influence of the group should never dictate an individual’s choices or values."
         ],
         [//-3
-            "A focus on individualism creates selfishness and disregard for the community.",
-            "It's important to challenge the group in order to innovate and move forward.",
-            "People need to speak up to stand out, even if it threatens group unity."
+            "Individuals should have the right to challenge group norms and stand out, even if it disrupts unity.",
+            "Being a unique individual is more important than maintaining group harmony.",
+            "Personal expression should not be limited by group consensus or tradition."
         ],
         [//-4
-            "Collectivism stifles creativity and individual potential.",
-            "Communities are detrimental to innovation and individual progress.",
-            "Individual achievement should be more important than group success."
+            "Collectivism limits personal growth and creativity.",
+            "Group-focused thinking stifles individual innovation and achievements.",
+            "The success of an individual should always take precedence over the success of the group."
         ]
     ],
     [// People v Task
         [//4
-            "Strong relationships are the key to success, and tasks should be completed later.",
-            "Before tackling any work, it’s important to build trust and rapport.",
-            "People-focused cultures prioritize collaboration over just completing tasks."
+            "Strong relationships within a team are crucial for success, even if tasks are delayed.",
+            "Before diving into work, establishing trust and personal connections should be the priority.",
+            "People-centered cultures place more importance on collaboration than completing tasks."
         ],
         [//3
-            "It’s crucial to build relationships before diving into work, but tasks are still important.",
-            "Getting to know your team personally helps in achieving effective work results.",
-            "Balancing relationships with task completion is essential for success."
+            "Building strong personal relationships is essential, but tasks must also be addressed.",
+            "Understanding your team members personally can lead to better outcomes, even if it takes extra time.",
+            "Task completion is important, but forming strong relationships is key for lasting success."
         ],
         [//2
-            "Both people and tasks should be equally prioritized for optimal results.",
-            "You can’t achieve tasks effectively without the trust and relationships built with your team.",
-            "While tasks are important, the people you work with should come first."
+            "Without trust and a solid relationship, tasks cannot be done efficiently or effectively.",
+            "People-focused work cultures are often more successful, though they can sometimes slow down task completion.",
+            "If you don’t prioritize people, completing tasks becomes a much more difficult and disconnected process."
         ],
         [//1
-            "Task completion is the priority, even if relationships take a backseat.",
-            "Tasks need to be completed regardless of personal interactions.",
-            "It's important to stay focused on goals and outcomes rather than personal interactions."
+            "Tasks and relationships should be balanced for the most effective results.",
+            "It is important not to prioritize tasks at the expense of maintaining good working relationships.",
+            "While tasks are essential, the quality of interpersonal relationships often influences overall success."
         ],
         [//-1
-            "Focusing only on tasks without regard for relationships is unhealthy.",
-            "Tasks should never overshadow the importance of working well with others.",
-            "People and relationships are the only path to success, even if the task suffers."
+            "Task completion is paramount, even if it means personal relationships are neglected.",
+            "Tasks must always take priority, even if personal interactions or relationships suffer.",
+            "A focus on completing the task, regardless of the relationships involved, is often more efficient."
         ],
         [//-2
-            "Tasks are important, but building relationships should always be the top priority.",
-            "Without relationships, tasks will be inefficient and difficult.",
-            "Task-oriented cultures are detrimental to workplace harmony."
+            "A culture focused on achieving results and meeting goals is more important than personal relationships.",
+            "Personal connections are secondary to achieving the goals of the task.",
+            "People interactions should not get in the way of completing work and achieving objectives."
         ],
         [//-3
-            "Relationships should take precedence above all, even at the expense of completing tasks.",
-            "Ignoring the task at hand for the sake of relationships is a grave mistake.",
-            "People-focused work cultures often create inefficiencies and delays."
+            "Relationships should not interfere with the timely completion of tasks.",
+            "Personal connections are unnecessary when the main goal is task accomplishment.",
+            "Too much focus on relationships can delay the necessary tasks and objectives."
         ],
         [//-4
-            "A task-focused approach is the only way to achieve results, regardless of interpersonal relations.",
-            "Task completion should be pursued relentlessly without worrying about personal connections.",
-            "It’s impossible to build solid relationships while focusing on the task at hand."
+            "Tasks should always come first, and personal relationships should be left out of the equation.",
+            "Work outcomes should be achieved without regard to how individuals feel about each other.",
+            "Task-focused cultures lead to more productive environments, even if relationships are secondary."
         ]
     ],
     [// Shame v Guilt
         [//4
-            "I am only guilty if I am caught and publicly shamed.",
-            "A mistake is only wrong if others see it as a failure.",
-            "Shame-based cultures prioritize public reputation over personal values."
+            "I am only concerned about my actions if I am caught and publicly shamed.",
+            "A mistake only becomes a problem if others witness it and judge me for it.",
+            "In shame-based cultures, personal values are often secondary to what others think of you."
         ],
         [//3
-            "Guilt is important, but public opinion should also be considered.",
-            "I should care about what others think about my actions, but ultimately, I hold myself accountable.",
-            "Shame from others can influence my actions but doesn’t define my morals."
+            "While guilt is important, it also matters what others think of my actions.",
+            "I consider public opinion, but I hold myself accountable to my own sense of right and wrong.",
+            "Shame from others influences my actions, but I still prioritize my own morals."
         ],
         [//2
-            "Guilt and shame should both be factors in decision-making.",
-            "A mix of public accountability and personal values leads to ethical choices.",
-            "Being judged by others can affect my actions, but I remain true to my personal morals."
+            "A combination of guilt and shame guides my decision-making.",
+            "Balancing personal accountability with public perception leads to ethical decisions.",
+            "I may be affected by the judgment of others, but I maintain my personal values."
         ],
         [//1
-            "I am responsible for my actions, whether or not others see them.",
-            "My sense of guilt comes from my own values and not from how others perceive me.",
-            "The guilt I feel is determined by my personal beliefs, not external shame."
+            "I take responsibility for my actions, regardless of whether anyone notices.",
+            "My sense of guilt stems from my internal values, not from how others perceive me.",
+            "The guilt I feel is rooted in my own beliefs, not influenced by external shame."
         ],
         [//-1
-            "I must conform to societal standards and avoid shame at all costs.",
-            "Shame is a powerful motivator for correcting behavior.",
-            "A person’s reputation and social standing should determine how they act."
+            "Conforming to societal standards and avoiding shame is very important to me.",
+            "Shame plays a key role in motivating me to correct my behavior.",
+            "I consider my reputation and social standing when making decisions."
         ],
         [//-2
-            "My actions are based on my own values, not what others think.",
-            "Shame only matters when it aligns with my personal moral compass.",
-            "Public shame has little bearing on my decisions."
+            "I follow my own values and principles, not what others think.",
+            "Shame only matters when it aligns with my personal beliefs and moral code.",
+            "The shame I feel from others rarely affects my choices."
         ],
         [//-3
-            "Shame is irrelevant; I determine right and wrong for myself.",
-            "Guilt and shame only serve to hinder personal growth.",
-            "Public opinion does not affect my sense of personal responsibility."
+            "I don’t let shame affect me; I make decisions based on my personal understanding of right and wrong.",
+            "Guilt and shame are obstacles to personal growth and should be avoided.",
+            "Public opinion doesn't influence my sense of personal responsibility."
         ],
         [//-4
-            "My actions are not defined by others’ opinions; I act based on my own conscience.",
-            "I reject shame altogether and focus purely on my internal moral compass.",
-            "There is no value in shame or guilt in guiding actions."
+            "I act according to my conscience, regardless of others’ opinions or societal standards.",
+            "I reject the idea of shame altogether, focusing only on my internal moral compass.",
+            "Shame and guilt are irrelevant in determining the right course of action."
         ]
     ],
     [// Reluctant 'Yes' v Clear 'Yes'
         [//4
-            "I can say ‘yes’ and still mean ‘no’; it’s just about being polite.",
-            "In certain cultures, indirect responses convey disapproval or reluctance.",
-            "Reluctance is often communicated through body language and tone rather than words."
+            "Saying ‘yes’ doesn’t always mean agreeing; it can simply be a polite response.",
+            "In some cultures, reluctance is expressed indirectly, often through tone or body language.",
+            "A ‘yes’ might be a way of avoiding direct confrontation, rather than a firm commitment."
         ],
         [//3
-            "‘Yes’ doesn’t always mean ‘yes’; tone and body language provide deeper meaning.",
-            "In some cultures, a reluctant ‘yes’ is understood to mean ‘no’ or hesitation.",
-            "Clear communication is important, but indirect answers can be necessary in certain situations."
+            "Tone and body language play a significant role in interpreting a ‘yes.’",
+            "Sometimes, a reluctant ‘yes’ is understood to signify hesitation or disagreement.",
+            "Clear communication is ideal, but in certain situations, indirect responses are necessary."
         ],
         [//2
-            "I prefer clarity, but I also understand that context is key when interpreting responses.",
-            "A reluctant ‘yes’ can indicate reservation, but it’s important to respect the culture behind it.",
-            "Clear communication reduces misunderstandings, but indirect answers may have their place."
+            "While I value clarity, I also recognize that context often dictates how we interpret responses.",
+            "A reluctant ‘yes’ can suggest uncertainty, but it’s essential to understand cultural nuances.",
+            "Clear communication helps, but indirect answers can be appropriate depending on the situation."
         ],
         [//1
-            "A ‘yes’ should always be clear, and ambiguity should be avoided.",
-            "A firm ‘yes’ eliminates confusion and is the only way to move forward.",
-            "Indecision or reluctance should not be expressed without clear explanation."
+            "A ‘yes’ should always be definitive, and there should be no ambiguity in communication.",
+            "Clear, firm affirmations are crucial to avoid confusion and ensure progress.",
+            "Reluctance should not be expressed without explaining the reasons behind it."
         ],
         [//-1
-            "A reluctant ‘yes’ causes confusion and undermines trust.",
-            "Communication must be direct; indirect answers lead to misunderstandings.",
-            "Ambiguous responses can be frustrating and unproductive."
+            "A hesitant or reluctant ‘yes’ can create confusion and undermine trust.",
+            "Indirect responses are counterproductive and can lead to misunderstandings.",
+            "Vague answers disrupt communication and lead to unproductive interactions."
         ],
         [//-2
-            "‘Yes’ should always mean ‘yes,’ and anything less causes problems.",
-            "Being indirect is detrimental to clarity and mutual understanding.",
-            "Clear, direct communication fosters trust and strengthens relationships."
+            "A clear ‘yes’ is non-negotiable; anything less creates problems in communication.",
+            "Being indirect is a barrier to understanding and cooperation.",
+            "Direct communication builds trust and fosters stronger relationships."
         ],
         [//-3
-            "Reluctance and indirect communication only create conflicts and misunderstandings.",
-            "In direct communication cultures, reluctance is seen as a sign of disrespect or avoidance.",
-            "A ‘no’ is preferable to an unclear ‘yes,’ as clarity matters more than politeness."
+            "Reluctance and vague responses create unnecessary misunderstandings and conflicts.",
+            "In cultures where direct communication is valued, reluctance is seen as avoidance or disrespect.",
+            "Clarity is paramount—ambiguity leads to more issues than a direct ‘no.’"
         ],
         [//-4
-            "Ambiguous answers must never be used; everything should be clear and direct.",
-            "Reluctant responses signal hesitation, and it’s best to avoid them entirely.",
-            "Politeness should not come at the cost of clear communication."
+            "All responses should be clear and direct—ambiguity should never be an option.",
+            "Reluctant answers signify hesitation and should be completely avoided.",
+            "Politeness should never overshadow the importance of clear and unambiguous communication."
         ]
     ]
+
 ]
