@@ -1,0 +1,231 @@
+<head>
+<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,700|Roboto:400,700" rel="stylesheet">
+<link href='style.css' rel='stylesheet' type='text/css'>
+<title>Cultural Axes Results</title>
+<link rel="icon" type="x-icon" href="icon.png">
+<link rel="shortcut icon" type="x-icon" href="icon.png">
+<meta charset="utf-8">
+</head>
+</script>
+
+<body>
+<h1>Cultural Axes</h1>
+<hr>
+
+<h1>Results</h1>
+
+<h2><span class="weight-300" id="a-label"></span></h2>
+<div class="axis">
+    <img id="img-l1" src="value_images/l1.png" height="128pt"/>
+    <div class="bar l1" id="bar-l1"><div class="text-wrapper" id="l1"></div></div>
+    <div class="bar r1" id="bar-r1"><div class="text-wrapper" id="r1"></div></div>
+    <img id="img-r1" src="value_images/r1.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="b-label"></span></h2>
+<div class="axis">
+    <img id="img-l2" src="value_images/democracy.png" height="128pt"/>
+    <div class="bar l2" id="bar-l2"><div class="text-wrapper" id="l2"></div></div>
+    <div class="bar r2" id="bar-r2"><div class="text-wrapper" id="r2"></div></div>
+    <img id="img-r2" src="value_images/r2.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="c-label"></span></h2>
+<div class="axis">
+    <img id="img-l3" src="value_images/l3.png" height="128pt"/>
+    <div class="bar l3" id="bar-l3"><div class="text-wrapper" id="l3"></div></div>
+    <div class="bar r3" id="bar-r3"><div class="text-wrapper" id="r3"></div></div>
+    <img id="img-r3" src="value_images/r3ist.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="d-label"></span></h2>
+<div class="axis">
+    <img id="img-l4" src="value_images/l4.png" height="128pt"/>
+    <div class="bar l4" id="bar-l4"><div class="text-wrapper" id="l4"></div></div>
+    <div class="bar r4" id="bar-r4"><div class="text-wrapper" id="r4"></div></div>
+    <img id="img-r4" src="value_images/r4.png" height="128pt"/>
+</div>
+<h2><span class="weight-300" id="e-label"></span></h2>
+<div class="axis">
+    <img id="img-l5" src="value_images/l5.png" height="128pt"/>
+    <div class="bar l5" id="bar-l5"><div class="text-wrapper" id="l5"></div></div>
+    <div class="bar r5" id="bar-r5"><div class="text-wrapper" id="r5"></div></div>
+    <img id="img-r5" src="value_images/r5.png" height="128pt"/>
+</div>
+
+<br><br>
+<button class="button" onclick="location.href='index.html';" style="background-color: #2196f3;">Back</button> <br>
+<script>
+    function getQueryVariable(variable)
+    {
+           var query = window.location.search.substring(1)
+           var vars = query.split("&")
+           for (var i=0;i<vars.length;i++) {
+                   var pair = vars[i].split("=")
+                   if(pair[0] == variable) {return pair[1]}
+           }
+           return(NaN);
+    }
+
+    function setBarValue(name, value) {
+        innerel = document.getElementById(name)
+        outerel = document.getElementById("bar-" + name)
+        outerel.style.width = (value + "%")
+        innerel.innerHTML = (value + "%")
+        if (innerel.offsetWidth + 20 > outerel.offsetWidth) {
+            innerel.style.visibility = "hidden"
+        }
+    }
+
+    leftArray = ["Hierarchial structure","Collectivism","People-oriented","Shame-based","Reluctant 'Yes'"]
+    rightArray = ["Peer-based structure","Individualism","Task-focused","Guilt-based","Clear 'Yes'"]
+
+    function setLabel(val,axis) {
+	return leftArray[axis] + " vs " + rightArray[axis]
+    }
+
+    a  = getQueryVariable("a")
+    b  = getQueryVariable("b")
+    c  = getQueryVariable("c")
+    d  = getQueryVariable("d")
+    e  = getQueryVariable("e")
+    f  = getQueryVariable("f")
+    g  = getQueryVariable("g")
+    h  = getQueryVariable("h")
+    i1  = getQueryVariable("i")
+    a2 = 100-a;
+    b2 = 100-b;
+    c2 = 100-c;
+    d2 = 100-d;
+    e2 = 100-e;
+    f2 = 100-f;
+    g2 = 100-g;
+    h2 = 100-h;
+    i2 = 100-i1;
+
+    setBarValue("l1", a)
+    setBarValue("r1", a2)
+    setBarValue("l2", b)
+    setBarValue("r2", b2)
+    setBarValue("l3", c)
+    setBarValue("r3", c2)
+    setBarValue("l4", d)
+    setBarValue("r4", d2)
+    setBarValue("l5", e)
+    setBarValue("r5", e2)
+    
+
+    document.getElementById("a-label").innerHTML = setLabel(a, 0)
+    document.getElementById("b-label").innerHTML = setLabel(b, 1)
+    document.getElementById("c-label").innerHTML = setLabel(c, 2)
+    document.getElementById("d-label").innerHTML = setLabel(d, 3)
+    document.getElementById("e-label").innerHTML = setLabel(e, 4)
+
+    ideology = ""
+    ideodist = Infinity
+    for (var i = 0; i < ideologies.length; i++) {
+        dist = 0
+        dist += Math.pow(Math.abs(ideologies[i].stats.govt - b), 2)
+        dist += Math.pow(Math.abs(ideologies[i].stats.dipl - c), 1.73856063)
+        if (dist < ideodist) {
+            ideology = ideologies[i].name
+            ideodist = dist
+        }
+    }
+    
+    document.getElementById("ideology-label").innerHTML = ideology
+
+    function createImage(src, x, y, w, h) {
+        img = new Image ()
+        img.src = src
+        img.onLoad = function() {
+            ctx.drawImage(img, x, y, w, h)
+        }
+    }
+
+    window.onload = function() {
+        var c = document.getElementById("banner")
+        var ctx = c.getContext("2d")
+        ctx.fillStyle = "#EEEEEE"
+        ctx.fillRect(0,0,800,1200)
+
+        img = document.getElementById("img-l1")
+        ctx.drawImage(img, 20, 120, 100, 100);
+        img = document.getElementById("img-r1")
+        ctx.drawImage(img, 680, 120, 100, 100)
+        img = document.getElementById("img-l2")
+        ctx.drawImage(img, 20, 240, 100, 100)
+        img = document.getElementById("img-r2")
+        ctx.drawImage(img, 680, 240, 100, 100)
+        img = document.getElementById("img-l3")
+        ctx.drawImage(img, 20, 360, 100, 100)
+        img = document.getElementById("img-r3")
+        ctx.drawImage(img, 680, 360, 100, 100)
+        img = document.getElementById("img-l4")
+        ctx.drawImage(img, 20, 480, 100, 100)
+        img = document.getElementById("img-r4")
+        ctx.drawImage(img, 680, 480, 100, 100)
+        img = document.getElementById("img-l5")
+        ctx.drawImage(img, 20, 600, 100, 100)
+        img = document.getElementById("img-r5")
+        ctx.drawImage(img, 680, 600, 100, 100)
+
+        ctx.fillStyle="#222222"
+        ctx.fillRect(120, 130, 560, 80)
+        ctx.fillRect(120, 250, 560, 80)
+        ctx.fillRect(120, 370, 560, 80)
+        ctx.fillRect(120, 490, 560, 80)
+        ctx.fillRect(120, 610, 560, 80)
+        ctx.fillRect(120, 730, 560, 80)
+        ctx.fillRect(120, 850, 560, 80)
+        ctx.fillRect(120, 970, 560, 80)
+        ctx.fillRect(120, 1090, 560, 80)
+        ctx.fillStyle="#ffeb3b"
+        ctx.fillRect(120, 134, 5.6*a-2, 72)
+        ctx.fillStyle="#f44336"
+        ctx.fillRect(682-5.6*a2, 134, 5.6*a2-2, 72)
+        ctx.fillStyle="#00897b"
+        ctx.fillRect(120, 254, 5.6*b-2, 72)
+        ctx.fillStyle="#ff9800"
+        ctx.fillRect(682-5.6*b2, 254, 5.6*b2-2, 72)
+        ctx.fillStyle="#03a9f4"
+        ctx.fillRect(120, 374, 5.6*(100-c2)-2, 72)
+        ctx.fillStyle="#9c27b0"
+        ctx.fillRect(682-5.6*c2, 374, 5.6*c2-2, 72)
+        ctx.fillStyle="#8bc34a" 
+        ctx.fillRect(120, 494, 5.6*d-2, 72)
+        ctx.fillStyle="#ea90ab"
+        ctx.fillRect(682-5.6*d2, 494, 5.6*d2-2, 72)
+        ctx.fillStyle="#3f51b5"
+        ctx.fillRect(120, 614, 5.6*e-2, 72)
+        ctx.fillStyle="#ffeb3b"
+        ctx.fillRect(682-5.6*e2, 614, 5.6*e2-2, 72)
+        ctx.fillStyle="#f44336"
+        ctx.font="700 80px Montserrat"
+        ctx.textAlign="left"
+        ctx.fillText("9Axes", 20, 90)
+        ctx.font="40px Montserrat"
+        ctx.textAlign="right"
+
+        ctx.font="50px Montserrat"
+        ctx.textAlign="left"
+        if (a  > 20) {ctx.fillText(a + "%", 130, 187.5)}
+        if (b     > 20) {ctx.fillText(b + "%", 130, 307.5)}
+        if ((100-c2)   > 20) {ctx.fillText((100-c2) + "%", 130, 427.5)}
+        if (d > 20) {ctx.fillText(d + "%", 130, 547.5)}
+        if (e  > 20) {ctx.fillText(e + "%", 130, 667.5)}
+        ctx.textAlign="right"
+        if (a2    > 20) {ctx.fillText(a2 + "%", 670, 187.5)}
+        if (b2     > 20) {ctx.fillText(b2 + "%", 670, 307.5)}
+        if (c2 > 20) {ctx.fillText(c2 + "%", 670, 427.5)}
+        if (d2  > 20) {ctx.fillText(d2 + "%", 670, 547.5)}
+        if (e2    > 20) {ctx.fillText(e2 + "%", 670, 667.5)}
+
+        ctx.font="300 30px Montserrat"
+        ctx.fillText("9Axes.github.io", 780, 55)
+        ctx.textAlign="center"
+        ctx.fillText(document.getElementById("a-label").innerHTML, 400, 125)
+        ctx.fillText(document.getElementById("b-label").innerHTML, 400, 245)
+        ctx.fillText(document.getElementById("c-label").innerHTML, 400, 365)
+        ctx.fillText(document.getElementById("d-label").innerHTML, 400, 485)
+        ctx.fillText(document.getElementById("e-label").innerHTML, 400, 605)
+    }
+    </script>
+</body>
