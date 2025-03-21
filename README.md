@@ -1,5 +1,9 @@
-# cultural-axes
+# Cultural-Axes
+A quiz to self-assess which cultural values you are influenced by
 
-Reading [this](https://www.linkedin.com/pulse/you-cant-ignore-cultural-differences-germain-the-mindful-maverick) article made me to make this repo.
-So the idea is what if we had a test like 9 axes but for evaluating the cutural spectrum mentioned above.
-Also I want to know where in the spectrum I am XD
+Inspired by [this article](https://www.linkedin.com/pulse/you-cant-ignore-cultural-differences-germain-the-mindful-maverick)
+
+Try the quiz at https://lightpurple9273.github.io/Cultural-Axes/
+
+# License
+MIT
